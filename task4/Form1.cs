@@ -11,8 +11,6 @@ namespace task4
             InitializeComponent();
         }
 
-
-
         private void label5_Click(object sender, EventArgs e)
         {
 
@@ -22,7 +20,7 @@ namespace task4
         {
             if (computer == null)
             {
-                MessageBox.Show("Компьюетра не сущетвует!");
+                MessageBox.Show("Компьютера не существует!");
                 return;
             }
 
@@ -33,7 +31,7 @@ namespace task4
         {
             if (computer == null)
             {
-                MessageBox.Show("Компьюетра не сущетвует!");
+                MessageBox.Show("Компьютера не существует!");
                 return;
             }
 
@@ -51,12 +49,12 @@ namespace task4
 
                 this.computer = new Macintosh(processorName, frequency, amountRAM, amountHdd);
 
-                MessageBox.Show("Компьюетр создан!");
+                MessageBox.Show("Компьютер создан!");
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Компьюетра не сущетвует!");
+                MessageBox.Show("Компьютера не существует!");
             }
         }
 
